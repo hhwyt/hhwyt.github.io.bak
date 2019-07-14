@@ -1,46 +1,23 @@
-permalink: /:categories/:title/
+# Site settings
+title: HyG
+email: gaohaoyang126@126.com
+description: 浩阳的博客 前端爱好者
+# > # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
 
-highlighter: rouge
+# baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  Gaohaoyang
+permalink: /:year/:month/:day/:title/
+
+# Build settings
 markdown: kramdown
-kramdown:
-  input:  GFM
-  syntax_highlighter: rouge
 
-
-paginate: 10
-paginate_path: "page/:num"
-baseurl: ""
-
-
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      styles : [highlight.css,gitment.css,post.css]
-      scripts : [gitment.js, post.js]
-
-
-
-title: "bit-ranger"
-email: sincerebravefight@gmail.com
-description: ""
-github:
-  username: bit-ranger
-swiftype:
-  searchId: iXZyPokVfxFaBTvi64Y6
-gitment:
-    repo: blog
-    client_id: a6fb73b3e790e234bab8
-    client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
-
-url: "https://bit-ranger.github.io/blog"
-imgrepo: "https://bit-ranger.github.io/blog/static/img"
-
-
-#url: "http://127.0.0.1:4000"
-#imgrepo: "http://127.0.0.1:4000/static/img"
-
+# highlight
+# 本地用rouge, github上用pygments
+# highlighter: pygments
+# highlighter: rouge
+# highlighter: false
