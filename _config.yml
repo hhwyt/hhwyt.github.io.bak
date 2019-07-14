@@ -35,7 +35,7 @@ swiftype:
 gitment:
     repo: hhwyt_gitment
     client_id: a6fb73b3e790e234bab8
-    client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
+    client_secret: 229ce86143aae2622b1c3d9e52d84a0b405b70fa
 
 url: "https://hhwyt.github.io/blog"
 imgrepo: "https://hhwyt.github.io/blog/static/img"
