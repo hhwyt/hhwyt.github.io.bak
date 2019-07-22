@@ -6,24 +6,21 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: HyG
-brief-intro: Front-end Dev Engineer
+title: hhwyt
+brief-intro: Back-end Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hhwyt.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: 
-facebook_username: gaohaoyang.water
-github_username:  Gaohaoyang
-email: gaohaoyang126@126.com
-weibo_username: 3115521wh
-zhihu_username: gaohaoyang
-linkedIn_username: gaohaoyang
+twitter_username: hhwyt2
+facebook_username: hhwyt
+github_username:  hhwyt
+email: hhwyt1@gmail.com
 dribbble_username:
 
-description_footer: 本站记录我前端之旅的沿途风景！
+description_footer: 再加把劲！
 
 # comments
 # two ways to comment, only choose one, and use your own short name
