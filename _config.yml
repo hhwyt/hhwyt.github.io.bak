@@ -33,7 +33,7 @@ disqus_shortname: hhwyt
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
 baidu_tongji_id: 77a56f27c760ada84345fddb62623bc5
-google_analytics_id: UA-72449510-4 # google 分析追踪id
+google_analytics_id: UA-144278680-1 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
