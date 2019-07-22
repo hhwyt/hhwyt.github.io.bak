@@ -1,46 +1,60 @@
-permalink: /:categories/:title/
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-highlighter: rouge
+# Site settings
+title: HyG
+brief-intro: Front-end Dev Engineer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://gaohaoyang.github.io" # the base hostname & protocol for your site
+
+permalink: /:year/:month/:day/:title/
+
+# other links
+twitter_username: 
+facebook_username: gaohaoyang.water
+github_username:  Gaohaoyang
+email: gaohaoyang126@126.com
+weibo_username: 3115521wh
+zhihu_username: gaohaoyang
+linkedIn_username: gaohaoyang
+dribbble_username:
+
+description_footer: 本站记录我前端之旅的沿途风景！
+
+# comments
+# two ways to comment, only choose one, and use your own short name
+# 两种评论插件，选一个就好了，使用自己的 short_name
+duoshuo_shortname: #hygblog
+disqus_shortname: gaohaoyang
+
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
+google_analytics_id: UA-72449510-4 # google 分析追踪id
+
+# Build settings
 markdown: kramdown
+
 kramdown:
-  input:  GFM
+  input: GFM
   syntax_highlighter: rouge
 
+# port
+# port: 1234
 
-paginate: 10
-paginate_path: "page/:num"
-baseurl: ""
+# url
+category_dir: category/
+tag_dir: tag/
 
+# excerpt
+excerpt_separator: "\n\n\n\n"
 
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      styles : [highlight.css,gitment.css,post.css]
-      scripts : [gitment.js, post.js]
-
-
-
-title: "hhwyt"
-email: hhwyt1@gmail.com
-description: ""
-github:
-  username: hhwyt
-swiftype:
-  searchId: Ev8ierxA6s8eYckH38oa
-gitment:
-    repo: hhwyt_gitment
-    client_id: a6fb73b3e790e234bab8
-    client_secret: 229ce86143aae2622b1c3d9e52d84a0b405b70fa
-
-url: "https://hhwyt.github.io/blog"
-imgrepo: "https://hhwyt.github.io/blog/static/img"
-
-
-#url: "http://127.0.0.1:4000"
-#imgrepo: "http://127.0.0.1:4000/static/img"
-
+# paginate
+gems: [jekyll-paginate]
+paginate: 6
