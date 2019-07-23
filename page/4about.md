@@ -15,8 +15,8 @@ type: page
 
 ## 联系我
 
-* GitHub：[hhwyt](https://github.com/hhwyt)
-* email：hhwyt1@gmail.com
+* Email：hhwyt1@gmail.com
+* [GitHub](https://github.com/hhwyt)
 * [Twitter](https://twitter.com/hhwyt2)
 * [Facebook](https://www.facebook.com/wilco.huang.798)
 
