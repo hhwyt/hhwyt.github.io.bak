@@ -17,6 +17,7 @@ type: page
 
 * GitHub：[hhwyt](https://github.com/hhwyt)
 * email：hhwyt1@gmail.com
+* [Twitter](https://twitter.com/hhwyt2)
 * [Facebook](https://www.facebook.com/wilco.huang.798)
 
 ## 友情链接
