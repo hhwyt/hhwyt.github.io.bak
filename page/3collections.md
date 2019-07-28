@@ -19,7 +19,7 @@ type: page
 
 - [Raft 动画演示](http://thesecretlivesofdata.com/raft/)
 - [Raft paper](https://raft.github.io/raft.pdf)
-- [Rust lecture](https://www.youtube.com/watch?v=YbZ3zDzDnrw)
+- [Raft lecture](https://www.youtube.com/watch?v=YbZ3zDzDnrw)
 
 ## Comments
 
